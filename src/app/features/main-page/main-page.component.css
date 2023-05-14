@@ -45,7 +45,15 @@ body{
   text-align:center;
   -webkit-font-smoothing: antialiased;
   height: 100%;
-  width: 70%;
+}
+
+.main_page_container{
+  width: 90%;
+  display: inline-block;
+}
+
+.main_page_section{
+  margin: 5%;
 }
 
 .box-wrap{
