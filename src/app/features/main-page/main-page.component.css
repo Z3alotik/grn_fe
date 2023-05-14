@@ -45,7 +45,9 @@ body{
   text-align:center;
   -webkit-font-smoothing: antialiased;
   height: 100%;
+  width: 50%;
 }
+
 .box-wrap{
   display:flex;
   align-items:center;
