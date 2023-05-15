@@ -8,9 +8,11 @@ import { Component, Input } from '@angular/core';
 export class CardComponent {
   @Input() title: string;
   @Input() text: string;
+  @Input() cardClass: string;
 
   constructor() {
     this.text = '';
     this.title = '';
+    this.cardClass = '';
   }
 }

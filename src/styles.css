@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+.main_page_container{
+    width: 90%;
+    display: block;
+  }  
+  
+  .main_page_section{
+    margin: 5%;
+  }
+
+  body{
+    background:#4b4b4b;
+    font-family: 'Inconsolata', monospace;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+  }
+
+  .bodyLogin{
+    background:#4b4b4b;
+    text-align:center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .myCard{
+    background-color: white;
+    width: 30%;
+    display: inline-flex; 
+  }

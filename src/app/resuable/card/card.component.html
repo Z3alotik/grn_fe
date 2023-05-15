@@ -1,6 +1,6 @@
-<div class="card">
+<div [ngClass]="cardClass ? cardClass : 'card'">
     <div class="card-body">
-      <h5 class="card-title">{{ title }}</h5>
+      <h1 class="card-title">{{ title }}</h1>
       <p class="card-text">{{ text }}</p>
       <ng-content></ng-content>
     </div>
