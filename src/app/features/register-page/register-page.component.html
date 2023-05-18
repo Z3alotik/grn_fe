@@ -1,0 +1,25 @@
+<body class="bodyLogin">
+    <app-card title="Register" cardClass="myCard">
+    <form>
+        <div class="container">
+    
+        <label>Name</label>
+        <input type="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" id="name" class="form-control" placeholder="Enter name" required>
+
+   
+        <label>Surname</label>
+        <input type="surname" [(ngModel)]="surname" [ngModelOptions]="{standalone: true}" id="surname" class="form-control" placeholder="Enter surname" required>
+
+   
+      <label>Email address</label>
+      <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" id="email" class="form-control" placeholder="Enter email" required>
+
+  
+      <label>Password</label>
+      <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" id="password" class="form-control" placeholder="Enter psassword" required>
+
+    <button type="submit" class="btn btn-primary" (click)="save()">Register</button>
+        </div>
+  </form>
+</app-card>
+</body>

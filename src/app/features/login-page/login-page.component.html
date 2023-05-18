@@ -6,19 +6,14 @@
             <app-card title="Log In" cardClass="myCard">
                 <form action="action_page.php" method="post">
                     <div class="container">
-                      <label for="name"><b>Name</b></label>
-                      <input type="text" placeholder="Enter name" name="name" required>
-        
-                      <label for="surname"><b>Surname</b></label>
-                      <input type="text" placeholder="Enter surname" name="surname" required>
-        
+                    
                       <label for="email"><b>Email</b></label>
-                      <input type="text" placeholder="Enter email" name="email" required>
+                      <input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" placeholder="Enter email" name="email" required>
                   
                       <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" placeholder="Enter Password" name="psw" required>
                   
-                      <button type="submit">Login</button>
+                      <button type="submit" (click)="login()">Login</button>
                     </div>
                   </form>
             </app-card>
