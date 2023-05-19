@@ -9,8 +9,20 @@
   }
 
   body{
-    background:#4b4b4b;
-    font-family: 'Inconsolata', monospace;
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
+    font-family: 'Verdana';
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+  }
+
+  .body_main_page{
+    background: #466368;
+    background: -webkit-linear-gradient(#648880, #293f50);
+    background:    -moz-linear-gradient(#648880, #293f50);
+    background:         linear-gradient(#648880, #293f50);
+    font-family: 'Verdana', monospace;
     text-align:center;
     -webkit-font-smoothing: antialiased;
     height: 100%;
@@ -27,6 +39,6 @@
 
   .myCard{
     background-color: white;
-    width: 30%;
     display: inline-flex; 
+    border-radius: 10px;  
   }
