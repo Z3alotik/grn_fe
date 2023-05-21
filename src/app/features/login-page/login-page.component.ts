@@ -19,15 +19,14 @@ export class LoginPageComponent {
 
 
   login() {
-
-    let bodyData = {
+    let req = {
       email: this.email,
       password: this.password
     };
 
-    console.log(bodyData);
+    console.log(req);
 
-    this.http.post("http://localhost:8080/api/v1/account/login", bodyData)
+    this.http.post("http://localhost:8080/api/v1/account/login", req)
     .subscribe((resultData: any) => {
       console.log(resultData);
       if (resultData.message == "Email not exists!") {
