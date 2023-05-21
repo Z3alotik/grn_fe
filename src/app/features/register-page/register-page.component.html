@@ -11,19 +11,19 @@
               <p class="text-white-50 mb-5">Please fill all of the following !</p>
 
               <div class="form-outline form-white mb-4">
-                <input [(ngModel)]="name" [ngModelOptions]="{standalone: true}" id="name" class="form-control form-control-lg" placeholder="Enter name" required/>
+                <input [(ngModel)]="loginRegisterService.name" [ngModelOptions]="{standalone: true}" id="name" class="form-control form-control-lg" placeholder="Enter name" required/>
               </div>
 
               <div class="form-outline form-white mb-4">
-                <input [(ngModel)]="surname" [ngModelOptions]="{standalone: true}" id="surname" class="form-control form-control-lg" placeholder="Enter surname" required/>
+                <input [(ngModel)]="loginRegisterService.surname" [ngModelOptions]="{standalone: true}" id="surname" class="form-control form-control-lg" placeholder="Enter surname" required/>
               </div>
 
               <div class="form-outline form-white mb-4">
-                <input [(ngModel)]="email" [ngModelOptions]="{standalone: true}" id="email" class="form-control form-control-lg" placeholder="Enter email" required />
+                <input [(ngModel)]="loginRegisterService.email" [ngModelOptions]="{standalone: true}" id="email" class="form-control form-control-lg" placeholder="Enter email" required />
               </div>
 
               <div class="form-outline form-white mb-4">
-                <input [(ngModel)]="password" [ngModelOptions]="{standalone: true}" id="password" class="form-control form-control-lg" placeholder="Enter password" required />
+                <input [(ngModel)]="loginRegisterService.password" [ngModelOptions]="{standalone: true}" id="password" class="form-control form-control-lg" placeholder="Enter password" required />
               </div>
 
               <button class="btn btn-outline-light btn-lg px-5" type="submit" (click)="save()">Register</button>

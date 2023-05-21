@@ -9,6 +9,7 @@ import { LoginPageComponent } from './features/login-page/login-page.component';
 import { RegisterPageComponent } from './features/register-page/register-page.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginRegisterService } from './services/login_register_service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [LoginRegisterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
