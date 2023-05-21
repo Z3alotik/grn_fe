@@ -37,25 +37,6 @@
   color: white;
 }
 
-body{
-  background:#4b4b4b;
-  font-family: 'Inconsolata', monospace;
-  font-weight:bold;
-  color:gray;
-  text-align:center;
-  -webkit-font-smoothing: antialiased;
-  height: 100%;
-}
-
-.main_page_container{
-  width: 90%;
-  display: inline-block;
-}
-
-.main_page_section{
-  margin: 5%;
-}
-
 .box-wrap{
   display:flex;
   align-items:center;

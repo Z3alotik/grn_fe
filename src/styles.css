@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+.main_page_container{
+    width: 90%;
+    display: block;
+  }  
+  
+  .main_page_section{
+    margin: 5%;
+  }
+
+  body{
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
+    font-family: 'Verdana';
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+  }
+
+  .body_main_page{
+    background: #466368;
+    background: -webkit-linear-gradient(#648880, #293f50);
+    background:    -moz-linear-gradient(#648880, #293f50);
+    background:         linear-gradient(#648880, #293f50);
+    font-family: 'Verdana', monospace;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+  }
+
+  .bodyLogin{
+    background:#4b4b4b;
+    text-align:center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .myCard{
+    background-color: white;
+    display: inline-flex; 
+    border-radius: 10px;  
+  }

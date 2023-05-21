@@ -3,8 +3,7 @@
   <script src="https://kit.fontawesome.com/9ce6b11ca0.js" crossorigin="anonymous"></script>
 </head>
 
-  <body>
-    <div class="main_page_container">
+  <body class="body_main_page">
         <section class="main_page_section" id="home">
             <h1>HOME</h1>
             <span>
@@ -36,7 +35,7 @@
             </span>
         </section>
         <section class="main_page_section" id="about">
-            <app-card title="O akci" text="
+            <app-card title="O akci" cardClass="myCard" text="
             Grove Night je soukroumá taneční párty pro přátele a přátele našich přátel která se koná už od roku 2021. Fungujeme na zajímavém nápadu, 
             kdy každý, který se chce zúčastnit, zaplatí daný příspěvěk a následně má právo na akci přijít, bavit se, pít a jíst celý večer zadarmo.
             To vše v rámci ceny, která je v tomto případě dosti přijatelná. Na naší akci se můžete pobavit s nejbižšími, zatančit si a zařádit na známé
@@ -58,7 +57,7 @@
             </app-card>
         </section>
         <section class="main_page_section" id="music">
-            <app-card title="Hudba" text="Grove Night je multižánrově založená taneční akce, tudíž u nás můžete očekávat všechny možné žánry hudby.
+            <app-card title="Hudba" cardClass="myCard" text="Grove Night je multižánrově založená taneční akce, tudíž u nás můžete očekávat všechny možné žánry hudby.
             Některé preferované si můžete projít níže.">
             <span>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
@@ -101,7 +100,7 @@
             </app-card>
         </section>
         <section class="main_page_section" id="contact">
-            <app-card title="Kontakt">
+            <app-card title="Kontakt" cardClass="myCard">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                 Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. 
                 In enim a arcu imperdiet malesuada. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. 
@@ -122,7 +121,6 @@
                 Donec iaculis gravida nulla.
             </app-card>
         </section>
-  </div>
 </body>
 
 <div class="navbar">
@@ -148,8 +146,13 @@
     </a>
         </div>
         <div class="box">
-    <a href="#">
+    <a href="login">
         <i class="fa-solid fa-right-to-bracket fa-xl"></i>
+    </a>
+        </div>
+        <div class="box">
+    <a href="register">
+        <i class="fa-solid fa-user-plus fa-xl"></i>
     </a>
         </div>
     </div>
