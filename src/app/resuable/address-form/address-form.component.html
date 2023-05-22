@@ -1,0 +1,26 @@
+        <form class="mb-0">
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline form-white mb-4">
+                <input [(ngModel)]="eventService.address.houseNumber" [ngModelOptions]="{standalone: true}" id="houseNumber" class="form-control form-control-lg" placeholder="Enter houseNumber" required/>
+            </div>
+            </div>
+            <div class="col">
+              <div class="form-outline form-white mb-4">
+                <input [(ngModel)]="eventService.address.zip" [ngModelOptions]="{standalone: true}" id="zip" class="form-control form-control-lg" placeholder="Enter zip" required/>
+            </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline form-white mb-4">
+                <input [(ngModel)]="eventService.address.street" [ngModelOptions]="{standalone: true}" id="street" class="form-control form-control-lg" placeholder="Enter street" required/>
+            </div>
+            </div>
+            <div class="col">
+              <div class="form-outline form-white mb-4">
+                <input [(ngModel)]="eventService.address.city" [ngModelOptions]="{standalone: true}" id="city" class="form-control form-control-lg" placeholder="Enter city" required/>
+            </div>
+            </div>
+          </div>
+        </form>
