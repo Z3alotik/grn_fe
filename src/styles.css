@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 .main_page_container{
-    width: 90%;
-    display: block;
+    width: 100%;
   }  
   
   .main_page_section{
-    margin: 5%;
+    margin: 7%;
   }
 
   body{
@@ -15,6 +14,8 @@
     text-align:center;
     -webkit-font-smoothing: antialiased;
     height: 100%;
+    margin: 0%;
+    padding: 0%;
   }
 
   .body_main_page{

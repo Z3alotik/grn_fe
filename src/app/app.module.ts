@@ -10,6 +10,8 @@ import { RegisterPageComponent } from './features/register-page/register-page.co
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginRegisterService } from './services/login_register_service';
+import { EventCardComponent } from './features/event-card/event-card.component';
+import { DateTimeCounterComponent } from './resuable/date-time-counter/date-time-counter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LoginRegisterService } from './services/login_register_service';
     MainPageComponent,
     CardComponent,
     LoginPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    EventCardComponent,
+    DateTimeCounterComponent
   ],
   imports: [
     BrowserModule,
